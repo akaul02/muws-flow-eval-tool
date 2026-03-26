@@ -52,6 +52,18 @@ Run one condition:
 .venv/bin/python evaluate.py --screenshots-dir ./screenshots --input-json metadata.json --output-json results.json --condition trajectory
 ```
 
+## Using your own screenshots
+
+- Put your images in a folder, for example `./screenshots/`
+- Create a `metadata.json` using the same schema as this repo (filenames should match your files)
+- Add `GEMINI_API_KEY=...` to a local `.env` (do not commit it)
+
+Example run:
+
+```bash
+.venv/bin/python evaluate.py --screenshots-dir ./screenshots --input-json metadata.json --output-json results.json --condition all
+```
+
 Web UI:
 
 ```bash
