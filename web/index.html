@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MUwS Screenshot Evaluator</title>
+    <link rel="stylesheet" href="/web/style.css" />
+  </head>
+  <body>
+    <h1>MUwS Screenshot Evaluator</h1>
+
+    <div class="controls">
+      <div class="buttons">
+        <button id="btnBaseline">Run Baseline</button>
+        <button id="btnContext">Run Context</button>
+        <button id="btnTrajectory">Run Trajectory</button>
+        <button id="btnAll">Run All (3 conditions)</button>
+      </div>
+      <div id="status" class="status"></div>
+    </div>
+
+    <h2>Drag and drop screenshots (optional)</h2>
+    <div id="dropzone" class="dropzone">
+      Drop PNG/JPG screenshots here
+    </div>
+    <p class="hint">For dropped screenshots, fill in the metadata so the model can evaluate the right flow.</p>
+
+    <div id="customList" class="custom-list"></div>
+
+    <h2>Compare results</h2>
+
+    <div class="grid3">
+      <section class="panel">
+        <h3>Baseline</h3>
+        <div id="baselinePanel" class="panel-body"></div>
+      </section>
+      <section class="panel">
+        <h3>Context</h3>
+        <div id="contextPanel" class="panel-body"></div>
+      </section>
+      <section class="panel">
+        <h3>Trajectory</h3>
+        <div id="trajectoryPanel" class="panel-body"></div>
+      </section>
+    </div>
+
+    <script src="/web/app.js"></script>
+  </body>
+</html>
+

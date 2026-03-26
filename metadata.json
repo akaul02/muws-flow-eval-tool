@@ -1,0 +1,120 @@
+{
+  "apps": [
+    {
+      "app_name": "Flashlight App 1",
+      "package_name": "unknown",
+      "screenshots": [
+        {
+          "filename": "flashlight1_01_remove_ads_popup-39f10c5e-1501-4b79-914a-e7ba95301b35.png",
+          "step": 1,
+          "seconds_since_launch": 0,
+          "user_action": "Opened app",
+          "notes": "$1.99 remove ads popup appeared immediately on launch"
+        }
+      ]
+    },
+    {
+      "app_name": "QR Scanner",
+      "package_name": "unknown",
+      "screenshots": [
+        {
+          "filename": "qrscanner_01_fullscreen_ad_on_launch-346e96b0-1ee5-40d7-889d-fe3cc6e8541b.png",
+          "step": 1,
+          "seconds_since_launch": 0,
+          "user_action": "Opened app",
+          "notes": "Full-screen ad appeared before any user interaction"
+        },
+        {
+          "filename": "qrscanner_02_remove_ads_upsell-d3152fb0-9d05-427f-ba38-c7810480d2a8.png",
+          "step": 2,
+          "seconds_since_launch": 15,
+          "user_action": "Navigated to settings",
+          "notes": "$4.99 remove ads button at top of settings with Save 50% badge"
+        },
+        {
+          "filename": "qrscanner_03_result_with_tiktok_ad-8093e314-b456-462e-abe2-c65aebe55dc7.png",
+          "step": 3,
+          "seconds_since_launch": 30,
+          "user_action": "Scanned a QR code",
+          "notes": "TikTok INSTALL NOW ad is visually larger than the scan result"
+        }
+      ]
+    },
+    {
+      "app_name": "Phone Cleaner",
+      "package_name": "unknown",
+      "screenshots": [
+        {
+          "filename": "cleaner_01_splash-71a70542-9447-41b5-8ce4-bf5df5e0f90f.png",
+          "step": 1,
+          "seconds_since_launch": 0,
+          "user_action": "Opened app",
+          "notes": "Splash screen says This action may contain Ads"
+        },
+        {
+          "filename": "cleaner_02_fullscreen_ad-d7ba7ca5-14b4-4647-b705-dcdeef0f5625.png",
+          "step": 2,
+          "seconds_since_launch": 5,
+          "user_action": "No action taken, ad appeared automatically",
+          "notes": "Full-screen ad for machinery, no close button visible"
+        },
+        {
+          "filename": "cleaner_03_tiktok_shop_ad-75cae3b7-2c40-494b-9bb4-b7c77c45ac3f.png",
+          "step": 3,
+          "seconds_since_launch": 15,
+          "user_action": "Dismissed previous ad",
+          "notes": "Another ad appeared immediately, TikTok Shop, blocks the app"
+        },
+        {
+          "filename": "cleaner_04_fullscreen_ad_bpratv-b8510de6-d8e6-4e56-988d-5bc0362a9056.png",
+          "step": 4,
+          "seconds_since_launch": 25,
+          "user_action": "Dismissed previous ad",
+          "notes": "Yet another full-screen ad, third one in 25 seconds"
+        },
+        {
+          "filename": "cleaner_05_video_ad-15df8b38-408c-453a-a022-8743bead1256.png",
+          "step": 5,
+          "seconds_since_launch": 35,
+          "user_action": "Dismissed previous ad",
+          "notes": "Video ad, no close button visible"
+        },
+        {
+          "filename": "cleaner_06_subscription_wall-72a095ec-7bfd-4bc2-8fd8-d3cff907dd3d.png",
+          "step": 6,
+          "seconds_since_launch": 45,
+          "user_action": "Dismissed previous ad",
+          "notes": "$16/year subscription wall, yearly plan pre-selected, auto-renew"
+        }
+      ]
+    },
+    {
+      "app_name": "Flashlight App 2",
+      "package_name": "unknown",
+      "screenshots": [
+        {
+          "filename": "flashlight2_03_normal_usage-ea2f6758-b2ab-431d-ab7b-e6413725f3b2.png",
+          "step": 1,
+          "seconds_since_launch": 0,
+          "user_action": "Opened app and used flashlight",
+          "notes": "Normal usage, small banner ad at bottom which is acceptable"
+        },
+        {
+          "filename": "flashlight2_01_fullscreen_ad_interrupt-da736d5d-a189-4240-8a9f-3e91994d1bf9.png",
+          "step": 2,
+          "seconds_since_launch": 20,
+          "user_action": "No action taken, ad appeared while using flashlight",
+          "notes": "Full-screen ad for therapist workshops, completely unrelated, no user action triggered this"
+        },
+        {
+          "filename": "flashlight2_02_remove_ads_upsell-2664d6ad-a1f0-4492-98a3-ec42522d8bb5.png",
+          "step": 3,
+          "seconds_since_launch": 25,
+          "user_action": "Dismissed the full-screen ad",
+          "notes": "Immediately hit with Remove Ads Forever $0.99 upsell after the forced ad"
+        }
+      ]
+    }
+  ]
+}
+
