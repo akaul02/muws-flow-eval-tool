@@ -38,15 +38,6 @@ Flow-level problems can be invisible in single screenshots, like:
 - Phone Cleaner: repeated full-screen ads, then subscription wall
 - Flashlight App 2: full-screen ad interrupt, then remove-ads upsell
 
-## Setup
-
-```bash
-python3 -m venv .venv
-.venv/bin/pip install -r requirements.txt
-cp .env.example .env
-# put GEMINI_API_KEY=... in .env
-```
-
 ## Usage
 
 CLI:
